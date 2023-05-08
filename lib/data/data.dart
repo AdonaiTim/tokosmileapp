@@ -1,0 +1,66 @@
+import '../models/product.dart';
+
+List<Product> products = [
+  Product(
+      image: "assets/images/products/prd0.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 4.5,
+      total_ratings: 2355,
+      price: 50.00,
+      category: "Shirt",
+      thumbnails: [
+        "assets/images/products/thumbnail0.png",
+        "assets/images/products/thumbnail1.png",
+        "assets/images/products/thumbnail2.png",
+        "assets/images/products/thumbnail3.png",
+      ],
+      isFav: false),
+  Product(
+      image: "assets/images/products/prd1.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 4.9,
+      total_ratings: 4275,
+      price: 32.00,
+      category: "Shirt",
+      isFav: true),
+  Product(
+      image: "assets/images/products/prd2.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 4.5,
+      total_ratings: 2875,
+      price: 24.00,
+      category: "Shirt",
+      isFav: false),
+  Product(
+      image: "assets/images/products/prd3.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 4.9,
+      total_ratings: 2385,
+      price: 36.00,
+      category: "Shirt",
+      isFav: false),
+  Product(
+      image: "assets/images/products/prd4.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 5.0,
+      total_ratings: 2385,
+      price: 23.00,
+      category: "Shirt",
+      isFav: false),
+  Product(
+      image: "assets/images/products/prd5.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 4.2,
+      total_ratings: 2365,
+      price: 18.00,
+      category: "Shirt",
+      isFav: false),
+  Product(
+      image: "assets/images/products/prd6.png",
+      desc: "Essentials Men's Short Sleeve Crewneck T-Shirt",
+      rating: 4.5,
+      total_ratings: 2355,
+      price: 28.00,
+      category: "Shirt",
+      isFav: false),
+];
